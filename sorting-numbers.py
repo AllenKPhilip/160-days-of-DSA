@@ -8,7 +8,6 @@ def sort012(arr):
     c1 = 0
     c2 = 0
 
-    # Count 0s, 1s and 2s
     for num in arr:
         if num == 0:
             c0 += 1
